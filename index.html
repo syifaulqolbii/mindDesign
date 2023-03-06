@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -18,25 +18,25 @@
           class="flex flex-row justify-between py-3 font-body text-lg uppercase text-white"
         >
           <a
-            href="#"
+            href="#about"
             class="font-semibold hover:text-primary hover:underline hover:decoration-2 hover:underline-offset-8"
             >About Us</a
           >
           <a
-            href="#"
+            href="#services"
             class="font-semibold hover:text-primary hover:underline hover:decoration-2 hover:underline-offset-8"
             >Services</a
           >
-          <a href="#">
+          <a href="">
             <img src="dist/img/logo.png" alt="logo" class="w-48 pt-1.5" />
           </a>
           <a
-            href="#"
+            href="#project"
             class="font-semibold hover:text-primary hover:underline hover:decoration-2 hover:underline-offset-8"
             >Project</a
           >
           <a
-            href="#"
+            href="#contact"
             class="font-semibold hover:text-primary hover:underline hover:decoration-2 hover:underline-offset-8"
             >Contact</a
           >
@@ -369,7 +369,7 @@
     </section>
     <!-- Hero Section End -->
     <!-- About Section Start -->
-    <section>
+    <section id="about">
       <div class="container">
         <div class="relative min-h-screen pt-24">
           <h1
@@ -452,6 +452,7 @@
     <!-- About Section End -->
     <!-- Service Section Start -->
     <section
+      id="services"
       class="min-h-screen w-full overflow-hidden bg-secondary bg-gradient-to-r from-primary/10 to-secondary py-12"
     >
       <div class="container relative">
@@ -660,7 +661,7 @@
     </section>
     <!-- Service Section  -->
     <!-- Project Section Start -->
-    <section class="bg-white">
+    <section class="bg-white" id="project">
       <div class="container py-10">
         <div class="flex flex-row justify-between">
           <div class="w-[50%]">
@@ -1150,19 +1151,19 @@
             alt="mbak-mbak"
             class="absolute -top-[300px]"
           />
-          <div class="relative -left-5 -top-32 uppercase">
+          <div class="group relative -left-5 -top-32 uppercase">
             <a href="#">
               <div
-                class="ml-10 mt-8 flex h-20 w-80 items-center justify-between rounded-full border-4 border-white bg-white/30 pl-5 pr-0.5 group-hover:bg-primary"
+                class="ml-10 mt-8 flex h-20 w-80 items-center justify-between rounded-full border-4 border-white bg-white/30 pl-5 pr-0.5 transition-all duration-300 group-hover:bg-primary"
               >
                 <h3 class="font-body text-3xl font-bold text-white">
                   START NOW
                 </h3>
                 <div
-                  class="mr-1 h-16 w-16 rounded-full border-2 border-white bg-primary group-hover:bg-white"
+                  class="mr-1 h-16 w-16 rounded-full border-2 border-white bg-primary transition-all duration-300 group-hover:bg-white"
                 >
                   <svg
-                    class="mx-auto mt-4 stroke-white group-hover:stroke-primary"
+                    class="mx-auto mt-4 stroke-white transition-all duration-300 group-hover:stroke-primary"
                     width="30"
                     height="30"
                     viewBox="0 0 25 25"
@@ -1187,6 +1188,7 @@
 
     <!-- Footer section start -->
     <section
+      id="contact"
       class="mt-32 bg-secondary bg-gradient-to-r from-primary/20 to-secondary"
     >
       <div class="container py-10">
@@ -1209,11 +1211,11 @@
             <div class="flex flex-row justify-between">
               <div class="flex flex-row items-center">
                 <img src="dist/img/dribble.svg" alt="dribble" class="mr-2" />
-                <a href="#">Dribble</a>
+                <a href="#" class="hover:text-primary">Dribble</a>
               </div>
               <div class="mr-6 flex flex-row items-center">
                 <img src="dist/img/behance.svg" alt="behance" class="mr-2" />
-                <a href="#">Behance</a>
+                <a href="#" class="hover:text-primary">Behance</a>
               </div>
             </div>
             <div class="mt-3 flex flex-row justify-between">
@@ -1223,11 +1225,11 @@
                   alt="instagram"
                   class="mr-2"
                 />
-                <a href="#">Instagram</a>
+                <a href="#" class="hover:text-primary">Instagram</a>
               </div>
               <div class="mr-6 flex flex-row items-center">
                 <img src="dist/img/linkedin.svg" alt="linkedin" class="mr-2" />
-                <a href="#">Linkedin</a>
+                <a href="#" class="hover:text-primary">Linkedin</a>
               </div>
             </div>
           </div>
@@ -1236,10 +1238,10 @@
       <div class="h-0.5 w-full bg-slate-500"></div>
       <div class="container">
         <div class="flex flex-row justify-evenly py-4 text-base text-white">
-          <a href="#">Privacy Notice</a>
-          <a href="#">Term of Services</a>
-          <a href="#">License</a>
-          <a href="#">Goverment</a>
+          <a href="#" class="hover:text-primary">Privacy Notice</a>
+          <a href="#" class="hover:text-primary">Term of Services</a>
+          <a href="#" class="hover:text-primary">License</a>
+          <a href="#" class="hover:text-primary">Goverment</a>
         </div>
       </div>
     </section>
